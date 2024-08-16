@@ -12,3 +12,5 @@ There are example block and item files along with custom components. To see all 
 ## Why was this made?
 This was made to help people that don't know how to script update their addons.
 
+## Where are the JS/TS files?
+TS files are in `./scripts/`, JS files are in `./BP/scripts/`

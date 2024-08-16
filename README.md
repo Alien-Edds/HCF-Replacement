@@ -10,5 +10,5 @@ Yes, you'll still need components like `minecraft:tick` and `minecraft:random_ti
 There are example block and item files along with custom components. To see all options even if you're writing in js, look at the TS interface files.
 
 ## Why was this made?
-This was made to help people that don't know how to script, but still make addons.
+This was made to help people that don't know how to script update their addons.
 

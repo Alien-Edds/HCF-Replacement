@@ -1,0 +1,62 @@
+{
+    "format_version": "1.21.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "hcf:test_block",
+            "menu_category": {
+                "category": "none",
+                "is_hidden_in_commands": false
+            },
+            "states": {
+                "hcf:state": [
+                    0,
+                    1
+                ],
+                "hcf:state1": [
+                    0,
+                    1
+                ]
+            }
+        },
+        "components": {
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "wood"
+                }
+            },
+            "minecraft:custom_components": [
+                "hcf:test_block_component"
+            ],
+            "minecraft:tick": {
+                "interval_range": [
+                    20,
+                    20
+                ],
+                "looping": true
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('hcf:state') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "wood"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('hcf:state') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "dirt"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

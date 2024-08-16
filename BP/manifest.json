@@ -1,0 +1,46 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "HCF Block and Item Replacement",
+        "description": "A script that tries to make it easier to fix your HCF Blocks & Items.",
+        "uuid": "c29974c7-b654-40fb-a263-43810c9439e4",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            20
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "d1c4aea8-1fe5-4662-b7bc-60ff71d044ab",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "uuid": "62ba232b-1297-4fed-9468-a99fdddff56e",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.13.0"
+        }
+    ]
+}

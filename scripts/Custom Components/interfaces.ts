@@ -7,7 +7,13 @@ export enum CommandTarget{
 }
 
 export interface QueueCommands{
+    /**
+     * @remarks The command target.
+     */
     target?: CommandTarget
+    /**
+     * @remarks The command(s) to run.
+     */
     commands: string[]
 }
 

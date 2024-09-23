@@ -300,7 +300,3 @@ export interface HCFBlockComponent {
         }
     }
 }
-
-const test: BlockCustomComponent = {
-
-}

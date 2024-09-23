@@ -1,5 +1,5 @@
 import { ItemComponentCompleteUseEvent, ItemComponentConsumeEvent, ItemComponentHitEntityEvent, ItemComponentMineBlockEvent, ItemComponentUseEvent, ItemComponentUseOnEvent } from "@minecraft/server"
-import { HCFQueueCommands, QueueCommands } from "../interfaces"
+import { HCFQueueCommands } from "../interfaces"
 
 export interface HCFItemComponent{
     componentID: string,
